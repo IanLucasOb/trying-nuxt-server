@@ -72,4 +72,8 @@ async function login(event: FormSubmitEvent<any>) {
 
   navigateTo("/todo");
 }
+
+onMounted(() => {
+  supabase.auth.signOut();
+});
 </script>
