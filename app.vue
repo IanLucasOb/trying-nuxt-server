@@ -1,7 +1,11 @@
 <template>
   <div>
     <NuxtPage></NuxtPage>
-    <!-- <NuxtRouteAnnouncer /> -->
-    <!-- <NuxtWelcome /> -->
   </div>
 </template>
+
+<style>
+html {
+  background-color: rgb(5, 4, 20);
+}
+</style>
